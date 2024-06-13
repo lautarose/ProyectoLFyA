@@ -1,22 +1,21 @@
-#include <iostream>
-#include <unordered_set>
+#include "Automata.h"
+#include "Conversion.h"
 
 int main() {
-    // Declarar un unordered_set de enteros
-    std::unordered_set<int> mySet;
+    std::cout << "Ingrese la expresion regular:\n";
+    std::string infix, dotfile;
+    std::cin >> infix;
+    std::cout << "Nombre del archivo DOT:\n";
+    std::cin >> dotfile;
 
-    // Insertar elementos
-    mySet.insert(1);
-    mySet.insert(2);
-    mySet.insert(3);
+    dotfile = dotfile + ".dot";
+    std::string postfix = infixToPostfix(infix);
+    Automata nfa = Automata::postfixToNFA(postfix);
 
-    // Intentar insertar un elemento duplicado (no se añadirá)
-    mySet.insert(2);
+    std::cout << "NFA creado para la expresión: " << infix << std::endl;
+    nfa.printNFA();
 
-    // Imprimir los elementos del unordered_set
-    for (int elem : mySet) {
-        std::cout << elem << " " << std::endl;
-    }
+    nfa.generateDotFile(dotfile);
 
     return 0;
 }

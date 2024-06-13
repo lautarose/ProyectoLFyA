@@ -1,0 +1,7 @@
+# ninja log v6
+1	452	1717093261493698370	CMakeFiles/LFyAProject.dir/Estado.cpp.o	b8326b4b9fdee655
+1	28	1718306822442058142	build.ninja	82c556e4fe2514b6
+1	578	1717093261493698370	CMakeFiles/LFyAProject.dir/Conversion.cpp.o	a6fb0a1226707b00
+1	430	1717093619863430116	CMakeFiles/LFyAProject.dir/main.cpp.o	9cbf38c02d078209
+431	503	1717093620295391311	LFyAProject	17e1f1c347dfba41
+1	1017	1717093261493698370	CMakeFiles/LFyAProject.dir/Automata.cpp.o	a06de4a8e9fd2177

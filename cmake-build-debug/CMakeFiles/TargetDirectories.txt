@@ -1,0 +1,3 @@
+/home/lautaro/CLionProjects/LFyAProject/cmake-build-debug/CMakeFiles/LFyAProject.dir
+/home/lautaro/CLionProjects/LFyAProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/lautaro/CLionProjects/LFyAProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
